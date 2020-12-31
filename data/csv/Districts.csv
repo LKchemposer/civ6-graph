@@ -1,0 +1,25 @@
+District,Buildings,Effects,Replaces,Unique to
+City Center,"Granary, Monument, Water Mill, Ancient Walls, Medieval Walls, Renaissance Walls, Sewer","5 Housing if adjacent to a River, Lake, or Oasis. 3 Housing if adjacent to a Coast. 2 Housing otherwise. Aircraft Capacity: 1 Tile is always worked for free. Yields are at least 2 Food and 1 Production.",,
+Campus,"Library, University, Madrasa (Arabian), Research Lab",Science-oriented District. Adds points towards Great Scientist. +1 Science from each adjacent Mountain. +1 Science from every 2 adjacent Rainforest and district tiles. +2 Science from each adjacent Reef tile. +2 Science from each adjacent Geothermal Fissure tile.,,
+Theater Square,"Amphitheater, Art Museum, Archaeological Museum, Broadcast Center, Film Studio (American)","Culture-oriented District. Adds points towards Great Writer, Great Artist and Great Musician. +2 Culture from each adjacent wonder. +1 Culture from every 2 adjacent district tiles. +2 Culture from each adjacent Entertainment Complex and Water Park tile. Buildings contain Great Work slots.",,
+Holy Site,"Shrine, Temple, Stave Church (Norwegian), Prasat (Khmer), Worship Buildings",Faith-oriented District. Adds points towards Great Prophet. +2 Faith from each adjacent natural wonder. +1 Faith from each adjacent Mountain. +1 Faith from every 2 adjacent Woods and district tiles. Allows Purchasing with Faith of Religious Units.,,
+Encampment,"Barracks, Basilikoi Paides (Macedonian), Stable, Armory, Military Academy",Military District. Adds points towards Great General. Has a defense value and can fight as the City Center. Produced military units appear here. Cannot be built next to the City Center.,,
+Commercial Hub,"Market, Sukiennice (Polish), Bank, Stock Exchange",Commerce-oriented District. Adds points towards Great Merchant. +2 Gold from each adjacent river and Harbor. +1 Gold from every 2 adjacent district tiles. +1 Trade Route capacity if the city does not have a Harbor.,,
+Harbor,"Lighthouse, Shipyard, Seaport",Seafaring District. Adds points towards Great Admiral. +1 Gold from each adjacent coastal resource. +1 Gold from every 2 adjacent district tiles. +2 Gold from adjacent City Center. +1 Trade Route capacity if the city does not have a Commercial Hub. Must be built on Coast or Lakes Terrain adjacent to land. Produced ships will appear here. Landlocked cities with this District may produce ships. Removes the Movement penalty for embarking and disembarking to and from this tile.,,
+Industrial Zone,"Workshop, Factory, Electronics Factory (Japanese)","Production-oriented District. Adds points towards Great Engineer. +1 Production from each adjacent Quarry. +1 Production from each adjacent Mine. +1 Production from every 2 adjacent district tiles. +1 Production from each adjacent strategic resource. +1 Production from every 2 adjacent Mine or Lumber Mill. +2 Production from every Aqueduct, Bath, Canal or Dam. Some District buildings' bonuses extend to each city within 6 tiles.",,
+Entertainment Complex,"Arena, Tlachtli (Aztec), Zoo, Stadium",Amenity-boosting district. Mutually exclusive with Water Park. +1 Amenity Some District buildings' bonuses extend to each city within 6 tiles.,,
+Aqueduct,,"Housing from water is increased by 2 or set to 6, whichever is higher. Must be built adjacent to both the City Center and one of the following: River, Lake, Oasis, or Mountain. Ignores the normal population requirements for district construction.",,
+Neighborhood,,Gives Housing based on tile's Appeal: Breathtaking: +6 Charming: +5 (The Mbanza provides this much Housing regardless of Appeal.) Average: +4 Uninviting: +3 Disgusting: +2 Ignores the normal population requirements for district construction. Any number of Neighborhood or Mbanza districts may be built in a city.,,
+Aerodrome,"Hangar, Airport",Aircraft-building District (only cities with this District may built aircraft). Cannot be built on Hills. Aircraft Capacity: +4 (+4 more with Buildings) Aircraft Capacity: +2 (+2 more with Buildings),,
+Spaceport,,Enables projects leading to the Science Victory. Cannot be built on Hills. Ignores the normal population requirements for district construction.,,
+Diplomatic Quarter,"Consulate, Chancery",Diplomacy and espionage-oriented District. May only be built once per civilization. +1 Culture (+1 Diplomatic Favor) from each Delegation or Embassy from a foreign civilization through diplomacy. +1 Envoy when built next to the City Center. Enemy Spies operate at 2 levels below normal when targeting this district or adjacent districts.,,
+Observatory,,,Campus,Mayan
+Acropolis,,,Theater Square,Greek
+Lavra,,,Holy Site,Russian
+Royal Navy Dockyard,,,Harbor,English
+Hansa,,,Industrial Zone,German
+Oppidum,,,Industrial Zone,Gallic
+Street Carnival,,,Entertainment Complex,Brazilian
+Hippodrome,,,Entertainment Complex,Byzantine
+Bath,,,Aqueduct,Roman
+Mbanza,,,Neighborhood,Kongolese

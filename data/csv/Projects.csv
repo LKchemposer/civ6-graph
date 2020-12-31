@@ -1,0 +1,19 @@
+Project,Requires,Effects
+Repair Outer Defenses,,Fully restores HP of Walls around this city and its Encampment
+Manhattan Project,Nuclear Fission,Allows Nuclear Devices to be built
+Operation Ivy,"Manhattan Project, Nuclear Fusion",Allows Thermonuclear Devices to be built
+Build Nuclear Device,"Manhattan Project, Uranium",Adds 1 Nuclear Device to inventory
+Build Thermonuclear Device,"Operation Ivy, Uranium",Adds 1 Thermonuclear Device to inventory
+Launch Earth Satellite,"Rocketry, Spaceport",Step 1 of Science Victory. Reveals entire map
+Launch Moon Landing,"Launch Earth Satellite, Satellites, Spaceport",Step 2 of Science Victory. Provides bonus Culture (= 10× Science per turn) at completion
+Launch Mars Habitation,"Launch Moon Landing, Robotics, Spaceport",Step 3 of Science Victory
+Launch Mars Hydroponics,"Launch Moon Landing, Nanotechnology, Spaceport",Step 3 of Science Victory
+Launch Mars Reactor,"Launch Moon Landing, Nuclear Fusion, Spaceport",Step 3 of Science Victory
+Campus Research Grants,"Campus, Observatory",Extra Science while ongoing. Extra Great Scientist points at completion
+Commercial Hub Investment,Commercial Hub,Extra Gold while ongoing. Extra Great Merchant points at completion
+Encampment Training,Encampment,Extra Gold while ongoing. Extra Great General points at completion
+Harbor Shipping,"Harbor, Royal Navy Dockyard",Extra Gold while ongoing. Extra Great Admiral points at completion
+Holy Site Prayers,"Holy Site, Lavra",Extra Faith while ongoing. Extra Great Prophet points at completion
+Industrial Zone Logistics,"Industrial Zone, Hansa",Extra Gold while ongoing. Extra Great Engineer points at completion
+Theater Square Performances,"Theater Square, Acropolis","Extra Culture while ongoing. Extra Great Writer, Great Artist, and Great Musician points at completion"
+Carnival,Street Carnival,"+1 Amenity while ongoing. Extra Great Engineer, Great Merchant, Great Writer, Great Artist, and Great Musician points at completion"

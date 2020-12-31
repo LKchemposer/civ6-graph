@@ -1,0 +1,86 @@
+Table,Columns,dtype,Repr.,Notes,Note Type,Edge Type
+Buildings,Building,str,Node,,Primary,
+Buildings,Era,str,Attribute,,,
+Buildings,District,str,Edge,,,"Unlocks, reverse"
+Buildings,Effects,str,Attribute,,,
+Buildings,Cost,"list, str",Attribute,"in Production, Maint.",,
+Buildings,Unlocked by,str,Edge,,,"Unlocks, reverse"
+Buildings,Unique to,str,Edge,,,"Unlocks, reverse"
+Buildings,Replaces,str,Edge,,,Replaces
+Buildings,Infrastructure,"list, str",Edge,,,"Unlocks, reverse"
+Civics,Civic,str,Node,,Primary,
+Civics,Era,str,Attribute,,,
+Civics,Inspiration,str,Attribute,,,
+Civics,Policies,"list, str",Edge,,,Unlocks
+Civics,Obsoletes,"list, str",Edge,,,Obsoletes
+Civics,Unlocks,"list, str",Edge,,,Unlocks
+Civics,Effects,str,Attribute,,,
+Civics,Diplomacies,"list, str","Node, Edge",with Attributes,Secondary,Unlocks
+Civics,Leads to,"list, str",Edge,,,Unlocks
+Civilizations,Civilization,str,Node,,Primary,
+Civilizations,Leader(s),str,"Node, Edge",,Secondary,Unlocks
+Civilizations,Unique Unit,str,Edge,Redundancy,,Unlocks
+Civilizations,Unique Infrastructure,str,Edge,Redundancy,,Unlocks
+Districts,District,str,Node,,Primary,
+Districts,Buildings,"list, str",Edge,Redundancy,,Unlocks
+Districts,Effects,str,Attribute,,,
+Districts,Replaces,str,Edge,,,Replaces
+Districts,Unique to,str,Edge,,,"Unlocks, reverse"
+Governments,Government,str,Node,,Primary,
+Governments,Requires,str,Edge,,,"Unlocks, reverse"
+Governments,Era,str,Attribute,,,
+Governments,Number of Slots,int,Attribute,,,
+Governments,Slots,"list, str",Attribute,,,
+Governments,Effects,str,Attribute,,,
+Governments,Legacy Bonus,str,Attribute,,,
+Improvements,Improvement,str,Node,,Primary,
+Improvements,Requires,str,Edge,,,"Unlocks, reverse"
+Improvements,Placement,str,Attribute,,,
+Improvements,Resource,"list, str",Edge,,,Unlocks
+Improvements,Effects,str,Attribute,,,
+Improvements,Plunder,str,Attribute,,,
+Improvements,Unique to,str,"Node, Edge",with City-states,Secondary,"Unlocks, reverse"
+Policies,Policy,str,Node,,Primary,
+Policies,Policy Type,str,Attribute,,,
+Policies,Notes,str,Attribute,,,
+Policies,Supersedes,"list, str",Edge,Redundancy,,Obsoletes
+Policies,Obsoleted by,"list, str",Edge,,,"Obsoletes, reverse"
+Policies,Civic,str,Edge,,,"Unlocks, reverse"
+Policies,Era,str,Attribute,,,
+Projects,Project,str,Node,,Primary,
+Projects,Requires,"list, str",Edge,,,"Unlocks, reverse"
+Projects,Effects,str,Attribute,,,
+Resources,Resource Type,str,Attribute,,,
+Resources,Resource,str,Node,,Primary,
+Resources,Yields,str,Attribute,,,
+Resources,Improvement,"list, str",Edge,,,"Unlocks, reverse"
+Resources,Harvest with,str,Edge,,,"Harvests, reverse"
+Resources,Effects,str,Attribute,,,
+Resources,Enables,"list, str",Edge,,,Unlocks
+Resources,Revealed by,str,Edge,,,"Reveals, reverse"
+Technologies,Era,str,Attribute,,,
+Technologies,Technology,str,Node,,Primary,
+Technologies,Prerequisites,"list, str",Edge,,,"Unlocks, reverse"
+Technologies,Cost,int,Attribute,in Science,,
+Technologies,Eureka,str,Attribute,,,
+Technologies,Infrastructure,"list, str",Edge,,,Unlocks
+Technologies,Units,"list, str",Edge,,,Unlocks
+Technologies,Effects,str,Attribute,,,
+Technologies,Diplomacies,str,"Node, Edge",,Secondary,Unlocks
+Units,Unit,str,Node,,Primary,
+Units,Unit Type,str,Attribute,,,
+Units,Era,str,Attribute,,,
+Units,Cost,"list, str",Attribute,"in Production, Gold, Maint.",,
+Units,Stats,"list, str",Attribute,,,
+Units,Upgrades to,"list, str",Edge,,,Upgrades
+Units,Notes,str,Attribute,,,
+Units,Unlocked by,str,Edge,,,"Unlocks, reverse"
+Units,Resource,str,Edge,,,"Unlocks, reverse"
+Units,Unique to,str,Edge,,,"Unlocks, reverse"
+Units,Replaces,str,Edge,,,Replaces
+Wonders,Wonder,str,Node,,Primary,
+Wonders,Era,str,Attribute,,,
+Wonders,Requires,str,Edge,,,"Unlocks, reverse"
+Wonders,Cost,int,Attribute,in Production,,
+Wonders,Effects,str,Attribute,,,
+Wonders,Placement,str,Attribute,,,

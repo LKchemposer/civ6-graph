@@ -1,0 +1,37 @@
+Improvement,Requires,Placement,Resource,Effects,Plunder,Unique to
+Airstrip,Flight,Flat terrain,,"-1 Appeal, +3 Aircraft Capacity., Built by a Military Engineer.",,
+Alcázar,,Cannot be built adjacent to another Alcázar.,,"+2 Culture, Occupying unit receives +4 Defense Strength and 2 turns of fortification.",Faith,Granada
+Batey,,Cannot be built on hills or adjacent to another Batey.,,"+1 Culture, +1 Culture for every adjacent Bonus Resource and Entertainment Complex, increasing to +2 Culture (with Exploration)., Provides Tourism after researching Flight",Faith,Caguana
+Camp,Animal Husbandry,Only on resource,"Deer, Furs, Ivory, Truffles, Honey","+2 Gold, +0.5 Housing, +1 Food (Mercantilism), +1 Production (Mercantilism), +1 Gold (Synthetic Materials)",Faith,
+Château,Humanism,Must be built adjacent to a River.,,2 Culture +1 Appeal to adjacent tiles +2 Culture if adjacent to a Wonder +1 Gold if adjacent to a luxury resource,Faith,French
+Colossal Heads,,,,"+2 Faith, +1 Faith for every 2 adjacent Woods or Rainforest, +1 Culture (Humanism)",Faith,La Venta
+Farm,,"Grassland, Plains, Floodplains, also on Grassland (Hills), Plains (Hills) with Civil Engineering","Wheat, Rice, Maize","+1 Food, +0.5 Housing, +1 Food with two adjacent Farms (Feudalism), +1 Food for each adjacent Farm (Replaceable Parts)",Healing,
+Fishing Boats,Sailing,Only on resource,"Fish, Crabs, Whales, Pearls","+1 Food, +0.5 Housing, +2 Gold (Cartography), +1 Food (Plastics)",Healing,
+Fort,Siege Tactics,Any land,,"Occupying unit receives +4 Defense Strength and 2 turns of fortification., Built by a Military Engineer.",,
+Great Wall,Masonry,Must be on territory border.,,Occupying unit receives +4 Defense Strength. +1 Gold for every adjacent Great Wall +1 Culture,Gold,Chinese
+Hacienda,Mercantilism,"Must be built on Grassland, Grassland Hills, Plains or Plains Hills.",,+2 Gold+1 Production +1 Housing +1 Food from every 2 adjacent Plantations (increasing to +1 Food every Plantation with Replaceable Parts). Plantations and Haciendas receive +1 Production for every 2 adjacent Haciendas (increasing to +1 Production for every Hacienda with Rapid Deployment).,Healing,Gran Colombian
+Kampung,Shipbuilding,Must be adjacent to a coastal resource.,,+1 Production +1 Housing +1 Food for each adjacent Fishing Boat +1 Housing (Mass Production) +1 Production (Civil Engineering) +1 Tourism per bonus Food on tile (Flight),Healing,Indonesian
+Kurgan,Animal Husbandry,Cannot be built on Hills.,,+1 Faith +1 Gold +1 Faith for every adjacent Pasture +1 Gold (Guilds) +1 Gold (Capitalism),Faith,Scythian
+Lumber Mill,Machinery,Woods,,"+1 Production, +1 Production if adjacent to a River, +1 Production (Steel)",Gold,
+Mahavihara,,"Must be built on flat land.
+Cannot be built adjacent to another Mahavihara.",,"+2 Science, +1 Housing, +1 Faith for every adjacent Holy Site., +1 Science for every adjacent Campus., The first one constructed unlocks a random technology.",Faith,Nalanda
+Mine,Mining,"Hills, and on land tiles with resource","Copper, Diamonds, Gold Ore, Iron, Jade, Mercury, Salt, Niter, Coal, Aluminum, Uranium","-1 Appeal, +1 Production, +1 Production (Apprenticeship), +1 Production (Industrialization)",Gold,
+Missile Silo,Rocketry,Only on flat land,,"Acts as launch site for Nuclear and Thermonuclear Devices., Built by a Military Engineer.",,
+Mission,Exploration,,,+2 Faith +2 Faith if on a different continent than your Capital +2 Science if built next to a Campus district +2 Science (requires Cultural Heritage),Faith,Spanish
+Monastery,,Cannot be built adjacent to another Monastery.,,+2 FaithProvides +15 HP healing every turn for friendly religious units.,Faith,Armagh
+Nubian Pyramid,Masonry,Must be built on Desert or Floodplains.,,+1 Faith +1 Food if adjacent to a City Center +1 Science if adjacent to a Campus +1 Gold if adjacent to a Commercial Hub +1 Gold if adjacent to a Harbor +1 Faith if adjacent to a Holy Site +1 Production if adjacent to an Industrial Zone +1 Culture if adjacent to a Theater Square,Faith,Nubian
+Offshore Oil Rig,Plastics,Only on sea tiles with Oil resource,Oil,"-1 Appeal, +2 Production",Gold,
+Oil Well,Steel,Only on land tiles with Oil resource,Oil,"-1 Appeal, +2 Production",Gold,
+Outback Station,Guilds,"Cannot be built on Snow, Tundra, Grassland Hills, or Plains Hills.",,+1 Food +1 Production +0.5 Housing +1 Food for every adjacent Pasture +1 Production for every 2 adjacent Outback Stations (Steam Power) +1 Food for every 2 adjacent Outback Stations (Rapid Deployment),Healing,Australian
+Pairidaeza,Early Empire,Cannot be built on Snow or Tundra and cannot be adjacent to another Pairidaeza.,,+1 Culture +2 Gold +2 Appeal to adjacent tiles +1 Culture (Diplomatic Service) +1 Culture for every adjacent Theater Square or Holy Site +1 Gold for every adjacent City Center or Commercial Hub,Faith,Persian
+Pasture,Animal Husbandry,Only on resource,"Sheep, Cattle, Horses","+1 Production, +0.5 Housing, +1 Food (Stirrups), +1 Production (Robotics)",Faith,
+Plantation,Irrigation,Only on resource,"Bananas, Citrus, Cocoa, Coffee, Cotton, Dyes, Silk, Sugar, Tea, Tobacco, Wine","+2 Gold, +0.5 Housing, +1 Food (Scientific Theory), +2 Gold (Globalization)",Faith,
+Quarry,Mining,Only on resource,"Stone, Marble, Gypsum","-1 Appeal, +1 Production, +2 Gold (Banking), +1 Production (Rocketry)",Faith,
+Rock-Hewn Church,Drama and Poetry,Cannot be adjacent to another Rock-Hewn Church.,,+1 Faith. +1 Faith for every adjacent Mountain and Hills tile. Provides Tourism after researching Flight. +1 Appeal.,Faith,Ethiopian
+Roman Fort,Iron Working,Can only be built by Legion.,,"Occupying unit receives +4 Defense Strength and 2 turns of fortification. (Same as standard Fort, but available earlier.) Built by Roman Legion.",,Roman
+Seaside Resort,Radio,"Only, Coastal, Grassland, Plains, Desert",,"Provides double the tile's Appeal in Tourism. (Double Tourism Output from Cristo Redentor)., Also provides the tile's Appeal in Gold.",Gold,
+Sphinx,Craftsmanship,"Can be built on Floodplains
+Cannot be built adjacent to another Sphinx.",,"+1 Culture, +1 Faith +1 Appeal to adjacent tiles +1 Culture (Natural History) +2 Faith if adjacent to a Wonder",Faith,Egyptian
+Stepwell,Irrigation,Cannot be built on Hills or adjacent to another Stepwell.,,+1 Food +1 Housing +1 Food if adjacent to a Farm +1 Faith if adjacent to a Holy Site +1 Faith (Feudalism) +1 Food (Professional Sports) +1 Housing (Sanitation),Healing,Indian
+Trading Dome,,Cannot be built adjacent to another Trading Dome.,,"+2 Gold, +1 Gold for every adjacent luxury resource., International Trade Routes sent from cities with Trading Domes generate +1 Gold for each Trading Dome present.",Gold,Samarkand
+Ziggurat,,Cannot be built on Hills.,,+2 Science +1 Culture (Natural History) +1 Culture when next to a River,Gold,Sumerian

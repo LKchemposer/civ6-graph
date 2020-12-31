@@ -1,0 +1,56 @@
+Building,Era,District,Effects,Cost,Unlocked by,Unique to,Replaces,Infrastructure
+Airport,Atomic Era,Aerodrome,+50% combat experience for air units trained in this city. +2 air unit slots in Aerodrome district. +3 Production,"Production: 600, Maint.: 2",Advanced Flight,,,Hangar
+Amphitheater,Classical Era,Theater Square,+2 Culture +1 Citizen slot +1 Great Writer point per turn. +2 Great Work of Writing slot.,"Production: 150, Maint.: 1",Drama and Poetry,,,
+Ancient Walls,Ancient Era,City Center,Provides Walls around the City Center and Encampment districts that allow Ranged Strikes from their location. Must be defeated before a city can be assaulted. +100 Outer Defense Strength,Production: 80,Masonry,,,
+Archaeological Museum,Renaissance Era,Theater Square,+2 Culture. +1 Citizen slot. +1 Great Writer point per turn. +2 Great Artist points per turn. +3 Artifact slots.,"Production: 290, Maint.: 2",Humanism,,,Amphitheater
+Arena,Classical Era,Entertainment Complex,+1 Culture +1 Amenity,"Production: 150, Maint.: 1",Games and Recreation,,,
+Armory,Medieval Era,Encampment,+25% combat experience for all land units trained in this city. +2 Production +1 Citizen slot +1 Great General point per turn,"Production: 195, Maint.: 2",Military Engineering,,,"Barracks, Stable"
+Art Museum,Renaissance Era,Theater Square,+2 Culture +1 Citizen slot +1 Great Writer point per turn. +2 Great Artist points per turn. +3 Great Works of Art slots.,"Production: 290, Maint.: 2",Humanism,,,Amphitheater
+Bank,Renaissance Era,Commercial Hub,+5 Gold +1 Citizen slot +1 Great Merchant point per turn.,Production: 290,Banking,,,Market
+Barracks,Ancient Era,Encampment,"+25% combat experience for all melee, ranged and anti-cavalry land units trained in this city. May not be built in an Encampment district that already has a Stable. +1 Production +1 Housing +1 Citizen slot +1 Great General point per turn","Production: 90, Maint.: 1",Bronze Working,,,
+Basilikoi Paides,Ancient Era,Encampment,"+1 Production +1 Housing +1 Citizen slot +1 Great General point per turn +25% combat experience for all melee, ranged, anti-cavalry land units, and Hetairoi trained in this city. Gain Science equal to 25% of the unit's cost when a non-civilian unit is created in this city. May not be built in an Encampment district that already has a Stable.","Production: 90, Maint.: 1",Bronze Working,Macedonian,Barracks,
+Broadcast Center,Modern Era,Theater Square,+4 Culture +1 Citizen slot +1 Great Artist point per turn. +2 Great Musician points per turn. +1 Great Works of Music slots.,"Production: 580, Maint.: 3",Radio,,,"Art Museum, Archaeological Museum"
+Cathedral,,Holy Site,+3 Faith +1 Citizen slot +1 Great Work of Religious Art slot,Production: 190,,,,Temple
+Chancery,,Diplomatic Quarter,"+3 Influence Points per turn. When this civilization captures or kills an enemy Spy, receive 50 Science for every level of the enemy Spy.","Production: 290, Maint.: 2",Diplomatic Service,,,Consulate
+Consulate,,Diplomatic Quarter,+2 Influence Points per turn. Spies operate at one level lower when targeting this city or cities with Encampments.,"Production: 150, Maint.: 1",Mathematics,,,
+Dar-e Mehr,,Holy Site,+3 Faith +1 additional Faith for each era since constructed or last repaired +1 Citizen slot,Production: 190,,,,Temple
+Electronics Factory,Industrial Era,Industrial Zone,"+4 Production to all city centers within 6 tiles After researching the Electricity technology, this building provides an additional +4 Culture to its city. +1 Citizen slot +1 Great Engineer point per turn.","Production: 390, Maint.: 2",Industrialization,Japanese,Factory,Workshop
+Factory,Industrial Era,Industrial Zone,+3 Production to all city centers within 6 tiles +1 Citizen slot +1 Great Engineer point per turn,"Production: 390, Maint.: 2",Industrialization,,,Workshop
+Film Studio,Modern Era,Theater Square,+4 Culture +1 Citizen slot +1 Great Artist point per turn. +2 Great Musician points per turn. +1 Great Work of Music slot.,"Production: 580, Maint.: 3",Radio,American,Broadcast Center,"Art Museum, Archaeological Museum"
+Granary,Ancient Era,City Center,+1 Food +2 Housing,Production: 65,Pottery,,,
+Gurdwara,,Holy Site,+3 Faith +2 Food,Production: 190,,,,Temple
+Hangar,Modern Era,Aerodrome,+25% combat experience for air units trained in this city. +2 air unit slots in Aerodrome district. +2 Production,"Production: 465, Maint.: 1",Flight,,,
+Library,Ancient Era,Campus,+2 Science +1 Citizen slot +1 Great Scientist point per turn.,"Production: 90, Maint.: 1",Writing,,,
+Lighthouse,Classical Era,Harbor,+25% combat experience for all naval units trained in this city. +1 Food +1 Gold +1 Housing  +1 Citizen slot +1 Great Admiral point per turn,Production: 120,Celestial Navigation,,,
+Madrasa,Classical Era,Campus,+5 Science +1 Housing +1 Citizen Slot +1 Great Scientist point per turn Bonus Faith equal to the adjacency Science bonus of its district,"Production: 250, Maint.: 2",Theology,Arabian,University,Library
+Market,Classical Era,Commercial Hub,+3 Gold +1 Citizen slot +1 Great Merchant point per turn,Production: 120,Currency,,,
+Medieval Walls,Medieval Era,City Center,+100 Outer Defense Strength +2 Housing under the Monarchy Government.,Production: 225,Castles,,,Ancient Walls
+Meeting House,,Holy Site,+3 Faith +2 Production,Production: 190,,,,Temple
+Military Academy,Industrial Era,Encampment,+25% combat experience for all land units trained in this city. Faster Corps and Army training. +3 Production +1 Housing +1 Citizen slot +1 Great General point per turn.,"Production: 390, Maint.: 2",Military Science,,,Armory
+Monument,Ancient Era,City Center,+2 Culture R&F +1 Loyalty ; +1 Culture if city is at maximum Loyalty.,Production: 60,,,,
+Mosque,,Holy Site,+3 Faith Missionaries and Apostles get 1 extra Spread Religion charge.,Production: 190,,,,Temple
+Pagoda,,Holy Site,+3 Faith +1 Housing +1 Citizen slot,Production: 190,,,,Temple
+Palace,Ancient Era,City Center,"+1 Culture, +5 Gold, +2 Production, +2 Science, +1 Housing, +1  Amenity from entertainment",,,,,
+Palgum,Ancient Era,City Center,+2 Production +1 Housing +1 Food to all tiles adjacent to a source of fresh water.,Production: 80,Irrigation,Babylonian,Water Mill,
+Power Plant,Modern Era,Industrial Zone,Bonus extends to each City Center within 6 tiles. +4 Production +1 Citizen slot +1 Great Engineer point per turn.,"Production: 580, Maint.: 3",Electricity,,,"Factory, Electronics Factory"
+Prasat,Classical Era,Holy Site,+4 Faith +1 Citizen slot +1 Great Prophet point per turn. +2 Relic slots. Allows the purchasing of Apostles and Inquisitors with Faith. Grants Martyr to all Missionaries purchased here.,"Production: 120, Maint.: 2",Theology,Khmer,Temple,Shrine
+Renaissance Walls,Renaissance Era,City Center,+100 Outer Defense Strength,Production: 305,Siege Tactics,,,Medieval Walls
+Research Lab,Modern Era,Campus,+5 Science +1 Citizen slot +1 Great Scientist point per turn.,"Production: 580, Maint.: 3",Chemistry,,,University
+Seaport,Modern Era,Harbor,Faster Fleet and Armada training. +25% combat experience for all naval units trained in this city. +2 Gold +2 Food +1 Housing +1 Citizen slot +1 Great Admiral point per turn.,Production: 580,Electricity,,,Shipyard
+Sewer,Industrial Era,City Center,+2 Housing,"Production: 200, Maint.: 2",Sanitation,,,
+Shipyard,Renaissance Era,Harbor,+25% combat experience for all naval units trained in this city. Bonus Production equal to the adjacency Gold bonus of its district. +1 Production to all unimproved Coast and Lake tiles in the city. +1 Citizen slot +1 Great Admiral point per turn,"Production: 290, Maint.: 2",Mass Production,,,Lighthouse
+Shrine,Ancient Era,Holy Site,+2 Faith +1 Citizen slot +1 Great Prophet point per turn. Allows the purchasing of Missionaries with Faith.,"Production: 70, Maint.: 1",Astrology,,,
+Stable,Classical Era,Encampment,+25% combat experience for all cavalry and siege class units trained in this city. May not be built in an Encampment district that already has a Barracks +1 Production +1 Housing +1 Citizen slot +1 Great General point per turn,"Production: 120, Maint.: 1",Horseback Riding,,,
+Stadium,Atomic Era,Entertainment Complex,+2 Amenities from Entertainment. Bonus extends to each City Center within 6 tiles. Bonus Tourism if city has 10+ Population.,"Production: 660, Maint.: 3",Professional Sports,,,Zoo
+Stave Church,Classical Era,Holy Site,+4 Faith +1 Citizen slot +1 Great Prophet point per turn +1 Relic slot +1 Production for every coastal resource worked by the city Holy Site gets an additional Standard adjacency  from Woods,"Production: 120, Maint.: 2",Theology,Norwegian,Temple,Shrine
+Stock Exchange,Industrial Era,Commercial Hub,+7 Gold +1 Citizen slot +1 Great Merchant point per turn.,Production: 390,Economics,,,Bank
+Stupa,,Holy Site,+3 Faith +1 Amenity +1 Citizen slot,Production: 190,,,,Temple
+Sukiennice,Classical Era,Commercial Hub,+3 Gold +1 Citizen slot +1 Great Merchant point per turn International Trade Routes from this city gain +2 Production Domestic Trade Routes from this city gain +4 Gold,Production: 120,Currency,Polish,Market,
+Synagogue,,Holy Site,+5 Faith,Production: 190,,,,Temple
+Temple,Classical Era,Holy Site,"+4 Faith +1 Citizen slot +1 Great Prophet point per turn. +1 Relic slot Allows the purchasing of Apostles, Gurus, and Inquisitors  with Faith.","Production: 120, Maint.: 2",Theology,,,Shrine
+Tlachtli,Classical Era,Entertainment Complex,+2 Faith +1 Culture +1 Amenity from Entertainment +1 Great General point per turn,"Production: 135, Maint.: 1",Games and Recreation,Aztec,Arena,
+University,Medieval Era,Campus,+4 Science +1 Housing +1 Citizen slot +1 Great Scientist point per turn,"Production: 250, Maint.: 2",Education,,,Library
+Wat,,Holy Site,+3 Faith +2 Science +1 Citizen slot,Production: 190,,,,Temple
+Water Mill,Ancient Era,City Center,+1 Food +1 Production Bonus resources improved by Farms gain +1 Food each.,Production: 80,Wheel,,,
+Workshop,Medieval Era,Industrial Zone,+2 Production  +1 Citizen slot +1 Great Engineer point per turn,"Production: 195, Maint.: 1",Apprenticeship,,,
+Zoo,Industrial Era,Entertainment Complex,+1 Amenity from Entertainment. Bonus extends to each City Center within 6 tiles. +1 Science for each Rainforest and Marsh tile in this city.,"Production: 445, Maint.: 2",Natural History,,,Arena

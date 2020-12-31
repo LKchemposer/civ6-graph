@@ -1,0 +1,104 @@
+Policy,Type,Notes,Supersedes,Obsoleted by,Civic,Era
+Survey,Military,Double experience for recon units.,,Native Conquest,Code of Laws,Ancient Era
+God King,Economic,+1 Gold and Faith in the Capital.,,Scripture,Code of Laws,Ancient Era
+Discipline,Military,+5 Combat Strength when fighting Barbarians.,,Native Conquest,Code of Laws,Ancient Era
+Urban Planning,Economic,+1 Production in all cities.,,Rationalism,Code of Laws,Ancient Era
+Ilkum,Economic,+30% Production towards Builders.,,Serfdom,Craftmanship,Ancient Era
+Agoge,Military,"+50% Production towards Ancient and Classical era melee, ranged and anti-cavalry units.",,Feudal Contract,Craftmanship,Ancient Era
+Caravansaries,Economic,+2 additional Gold from all Trade Routes.,,Triangular Trade,Foreign Trade,Ancient Era
+Maritime Industries,Military,+100% Production towards all Ancient and Classical era naval units.,,"Press Gangs, International Waters",Foreign Trade,Ancient Era
+Maneuver,Military,+50% Production towards all Ancient and Classical era light and heavy cavalry units.,,"Chivalry, Lightning Warfare",Military Tradition,Ancient Era
+Strategos,Wildcard,+2 Great General points per turn.,,Military Organization,Military Tradition,Ancient Era
+Conscription,Military,Unit maintenance reduced by 1 Gold per turn per unit.,,Levée en Masse,State Workforce,Ancient Era
+Corvée,Economic,+15% Production towards Ancient and Classical era wonders.,,"Gothic Architecture, Skyscrapers",State Workforce,Ancient Era
+Land Surveyors,Economic,Reduces the cost to purchase a tile by 20%.,,Expropriation,Early Empire,Ancient Era
+Colonization,Economic,+50% Production towards Settlers.,,Expropriation,Early Empire,Ancient Era
+Inspiration,Wildcard,+2 Great Scientist points per turn.,,Science Foundations,Mysticism,Ancient Era
+Revelation,Wildcard,+2 Great Prophet points per turn.,,Humanism,Mysticism,Ancient Era
+Insulae,Economic,+1 Housing in all cities with at least 2 specialty districts.,,Medina Quarter,Games and Recreation,Classical Era
+Charismatic Leader,Diplomatic,+2 influence points per turn.,,Gunboat Diplomacy,Political Philosophy,Classical Era
+Diplomatic League,Diplomatic,The first Envoy you send to each city-state counts as 2 Envoys.,,,Political Philosophy,Classical Era
+Literary Tradition,Wildcard,+2 Great Writer points per turn.,,,Drama and Poetry,Classical Era
+Raid,Military,Yields gained from pillaging are doubled for pillaging improvements.,,Total War,Military Training,Classical Era
+Veterancy,Military,+30% Production towards Encampment districts and buildings.,,,Military Training,Classical Era
+Bastions,Military,+6 City Defense Strength. +5 City Ranged Strength.,,Public Works,Defensive Tactics,Classical Era
+Limes,Military,+100% Production towards defensive buildings.,,Lightning Warfare,Defensive Tactics,Classical Era
+Natural Philosophy,Economic,+100% Campus district adjacency bonuses.,,Five-Year Plan,Recorded History,Classical Era
+Scripture,Economic,+100% Holy Site district adjacency bonuses.,God King,,Theology,Classical Era
+Naval Infrastructure,Economic,+100% Harbor district adjacency bonuses.,,Economic Union,Naval Tradition,Medieval Era
+Navigation,Wildcard,+2 Great Admiral points per turn.,,,Naval Tradition,Medieval Era
+Feudal Contract,Military,"+50% Production towards Ancient, Classical, Medieval and Renaissance era melee, ranged and anti-cavalry units.",Agoge,Grande Armée,Feudalism,Medieval Era
+Serfdom,Economic,Newly trained Builders gain 2 extra build actions.,Ilkum,Public Works,Feudalism,Medieval Era
+Meritocracy,Economic,Each city receives +1 Culture for each specialty district it constructs.,,,Civil Service,Medieval Era
+Retainers,Military,+1 Amenity for cities with a garrisoned unit.,,Propaganda,Civil Service,Medieval Era
+Sack,Military,Yields gained from pillaging are doubled for districts.,,Total War,Mercenaries,Medieval Era
+Professional Army,Military,50% discount on all unit upgrades.,,Force Modernization,Mercenaries,Medieval Era
+Trade Confederation,Economic,+1 Culture and +1 Science from international Trade Routes.,,Market Economy,Mercenaries,Medieval Era
+Merchant Confederation,Diplomatic,+1 Gold from each of your city-state Envoys,,,Medieval Faires,Medieval Era
+Aesthetics,Economic,+100% Theater Square district adjacency bonuses.,,Sports Media,Medieval Faires,Medieval Era
+Medina Quarter,Economic,+2 Housing in all cities with at least 3 specialty districts.,Insulae,New Deal,Medieval Faires,Medieval Era
+Craftsmen,Economic,+100% Industrial Zone district adjacency bonuses.,,Five-Year Plan,Guilds,Medieval Era
+Town Charters,Economic,+100% Commercial Hub district adjacency bonuses.,,Economic Union,Guilds,Medieval Era
+Traveling Merchants,Wildcard,+2 Great Merchant points per turn.,,Laissez-Faire,Guilds,Medieval Era
+Chivalry,Military,+50% Production toward Industrial era and earlier light and heavy cavalry units.,Maneuver,Lightning Warfare,Divine Right,Medieval Era
+Gothic Architecture,Economic,"+15% Production toward Ancient, Classical, Medieval and Renaissance era wonders.",Corvée,Skyscrapers,Divine Right,Medieval Era
+Native Conquest,Military,Combat victories over units from earlier eras provide Gold equal to 50% of the Combat Strength of the defeated unit.,"Discipline, Survey",,Exploration,Renaissance Era
+Colonial Offices,Economic,+15% faster growth for cities not on your original Capital's continent.,Urban Planning,,Exploration,Renaissance Era
+Invention,Wildcard,+2 Great Engineer points per turn.,Revelation,,Humanism,Renaissance Era
+Frescoes,Wildcard,+2 Great Artist points per turn.,Revelation,,Humanism,Renaissance Era
+Machiavellianism,Diplomatic,+50% Production towards Spies. Spy operations take 25% less time.,,,Diplomatic Service,Renaissance Era
+Wars of Religion,Military,+4 Combat Strength when fighting civilizations that follow other religions.,,,Reformed Church,Renaissance Era
+Simultaneum,Economic,+100% Faith from Holy Site district buildings.,,,Reformed Church,Renaissance Era
+Religious Orders,Economic,All religious units gain +5 Religious Strength in theological combat.,,,Reformed Church,Renaissance Era
+Logistics,Military,+1 Movement if starting turn in friendly territory.,,,Mercantilism,Renaissance Era
+Triangular Trade,Economic,+4 Gold and +1 Faith from all Trade Routes.,Caravansaries,Ecommerce,Mercantilism,Renaissance Era
+Rationalism,Economic,+100% Science from Campus district buildings.,,,The Enlightenment,Renaissance Era
+Free Market,Economic,+100% Gold yield from Commercial Hub district buildings.,,,The Enlightenment,Renaissance Era
+Liberalism,Economic,+1 Amenity to all cities with at least 2 specialty districts.,,New Deal,The Enlightenment,Renaissance Era
+Grande Armée,Military,"+50% Production towards Industrial era and earlier melee, ranged and anti-cavalry units.",Feudal Contract,Military First,Nationalism,Industrial Era
+National Identity,Military,Units have 50% less Combat Strength reduction from being injured.,,,Nationalism,Industrial Era
+Press Gangs,Military,+100% Production towards Industrial era and earlier naval units.,Maritime Industries,International Waters,Colonialism,Industrial Era
+Colonial Taxes,Economic,+25% Gold in cities not on your original Capital's continent.,,,Colonialism,Industrial Era
+Raj,Diplomatic,"+2 Science, Culture, Faith and Gold from all city-states you're Suzerain of.",,,Colonialism,Industrial Era
+Public Works,Economic,+30% Production towards Builders. Newly trained Builders gain 2 additional Build actions.,Serfdom,,Civil Engineering,Industrial Era
+Skyscrapers,Economic,+15% Production towards all Wonders.,Gothic Architecture,,Civil Engineering,Industrial Era
+Grand Opera,Economic,+100% Culture from Theater Square district buildings.,,Professional Sports,Opera and Ballet,Industrial Era
+Symphonies,Wildcard,+4 Great Musician points per turn.,,,Opera and Ballet,Industrial Era
+Public Transport,Economic,Receive 50 Gold per Appeal of tile when replacing a Farm with a Neighborhood district.,,,Urbanization,Industrial Era
+Military Research,Military,Military Academies and Seaports generate +1 Science.,,Integrated Space Cell,Urbanization,Industrial Era
+Total War,Military,Yields gained from pillaging and coastal raids are +100%. +50% rewards for plundering Trade Routes.,"Raid, Sack",,Scorched Earth,Industrial Era
+Expropriation,Economic,Settler cost reduced by 50%. Plot purchase cost reduced by 20%.,"Colonization, Land Surveyors",,Scorched Earth,Industrial Era
+Military Organization,Wildcard,+4 Great General points per turn.,Strategos,,Scorched Earth,Industrial Era
+Resource Management,Economic,1 copy of a Strategic Resource allows you to produce or purchase units requiring it in every city.,,,Conservation,Modern Era
+Propaganda,Military,Accumulate 25% less war weariness than usual.,Retainers,,Mass Media,Modern Era
+Levée en Masse,Military,Unit maintenance cost reduced by 2 Gold per unit.,Conscription,,Mobilization,Modern Era
+Laissez-Faire,Wildcard,+4 Great Merchant points per turn.,Travelling Merchants,,Capitalism,Modern Era
+Market Economy,Economic,"Your international Trade Routes provide +1 Gold, +2 Culture, and +2 Science per Strategic Resource improved at the destination.",Trade Confederation,,Capitalism,Modern Era
+Police State,Diplomatic,"Enemy Spy levels reduced by 2 in your lands. However, all cities suffer -1 Amenity.",,,Ideology,Modern Era
+Science Foundations,Wildcard,+4 Great Scientist points per turn.,Inspiration,,Nuclear Program,Modern Era
+Nuclear Espionage,Diplomatic,Spies who steal a tech boost without being detected gain an extra boost.,,,Nuclear Program,Modern Era
+Economic Union,Economic,+100% Commercial Hub and Harbor district adjacency bonuses.,"Naval Infrastructure, Town Charters",,Suffrage,Modern Era
+Their Finest Hour,Military,+50% Production toward Modern and Atomic air units.,,Strategic Air Force,Suffrage,Modern Era
+Arsenal of Democracy,Diplomatic,Your Trade Routes to an ally's city provide +2 Food and Production for both cities.,Wisselbanken,,Suffrage,Modern Era
+New Deal,Economic,"+4 Housing, +2 Amenities, -8 Gold to all cities with at least 3 specialty districts.","Medina Quarter, Liberalism",,Suffrage,Modern Era
+Lightning Warfare,Military,+50% Production for all heavy and light cavalry units.,"Chivalry, Maneuver",,Totalitarianism,Modern Era
+Third Alternative,Economic,"+4 Gold from each Research Lab, Military Academy and Power Plant.",,,Totalitarianism,Modern Era
+Martial Law,Military,Accumulate 25% less war weariness than usual.,,,Totalitarianism,Modern Era
+Gunboat Diplomacy,Diplomatic,"Open Borders with all City-States, and +4 influence points per turn towards earning Envoys.",Charismatic Leader,,Totalitarianism,Modern Era
+Five-Year Plan,Economic,+100% Campus and Industrial Zone district adjacency bonuses.,"Craftsmen, Natural Philosophy",,Class Struggle,Modern Era
+Collectivization,Economic,+4 Food from domestic Trade Routes.,,,Class Struggle,Modern Era
+Patriotic War,Military,"+100% Production towards Modern, Atomic and Information era support units.",,,Class Struggle,Modern Era
+Defense of the Motherland,Military,No war weariness from combat in your territory.,,,Class Struggle,Modern Era
+Cryptography,Diplomatic,Enemy Spy level reduced by 2 in your lands. Your Spy level is increased by 1 for offensive operations.,,,Cold War,Atomic Era
+International Waters,Military,"+100% Production towards all naval units, excluding Carriers.","Maritime Industries, Press Gangs",,Cold War,Atomic Era
+Containment,Diplomatic,"Each Envoy you send to a City-State counts as two, if its Suzerain has different government than you.",,,Cold War,Atomic Era
+Heritage Tourism,Economic,+100% Tourism from Great Works and Artifacts.,,,Cultural Heritage,Atomic Era
+Sports Media,Economic,"+100% Theater Square district adjacency bonuses, and Stadiums generate +1 Amenity.","Aesthetics, Grand Opera",,Professional Sports,Atomic Era
+Military First,Military,"+50% Production toward all melee, anti-cavalry and ranged units.",Grande Armee,,Rapid Deployment,Atomic Era
+Satellite Broadcasts,Economic,+200% Tourism from Great Works of Music.,,,Space Race,Atomic Era
+Integrated Space Cell,Military,+15% Production towards Space Race projects if a city has either a Military Academy or a Seaport.,Military Research,,Space Race,Atomic Era
+Strategic Air Force,Military,+50% Production toward all air units and toward Carriers.,Their Finest Hour,,Globalization,Information Era
+Ecommerce,Economic,+5 Production and +10 Gold from international Trade Routes.,Triangular Trade,,Globalization,Information Era
+International Space Agency,Diplomatic,+10% Science per City-State you are the Suzerain of.,,,Globalization,Information Era
+Online Communities,Economic,+50% Tourism output to civilizations to which you have a Trade Route.,,,Social Media,Information Era
+Collective Activism,Diplomatic,+10% Culture per City-State you are the Suzerain of.,,,Social Media,Information Era
