@@ -7,7 +7,7 @@ import textwrap
 from IPython.display import clear_output
 
 # load Graph
-G = nx.read_graphml('../data/graph/civ_wboost.graphml')
+G = nx.read_graphml('../data/graph/civ.graphml')
 
 def colornode(by):
     if by == 'Era':
