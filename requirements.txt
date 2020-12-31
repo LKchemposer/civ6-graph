@@ -1,5 +1,6 @@
 numpy==1.17.4
 ipywidgets==7.5.1
+widgetsnbextension==3.5.1
 nbinteract==0.2.5
 networkx==2.5
 python-igraph==0.8.3
