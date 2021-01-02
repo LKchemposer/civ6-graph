@@ -4,7 +4,7 @@
 
 The [Civilization VI](https://civilization.com/) game is an awesome but complicated game. As a beginner of the Civ series, I approached learning the game in a slightly different way: by mapping out the entirety (or most of) the static dependencies of entities in the game. The resulting graph has 627 nodes (entities) and 1125 edges (connections). Node types include technologies, civics, building, resources, units, improvements, etc., and edge types include unlocks, boosts (for technologies and civics), upgrades (for units), replaces (for unique units or infrastructure of a specific civilization), etc.
 
-You can also interact with portion of the graph via either the [Dash app](http://lkchemposer.pythonanywhere.com/) or the [demo notebook](https://mybinder.org/v2/gh/LKchemposer/civ6-graph/1002fbefd91d10f7bc995bf0df4ab73ba1c5abf0?filepath=src%2Fnotebooks%2Fdemo.ipynb) in this repo. If you're interested in the data itself, check out the [csv files](./data/csv/). I also added a [graphml file](./data/graph/) for any interested graph peeps.
+You can also interact with portion of the graph via either the [Dash app](http://lkchemposer.pythonanywhere.com/) or the [demo notebook](https://mybinder.org/v2/gh/LKchemposer/civ6-graph/32fdcd2c5a0be17af49faa3d83c971d6472f257e?filepath=src%2Fdemo.ipynb) in this repo. If you're interested in the data itself, check out the [csv files](./data/csv/). I also added a [graphml file](./data/graph/) for any interested graph peeps.
 
 ![Gephi graph](./civ.png)
 
