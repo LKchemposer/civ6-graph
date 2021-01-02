@@ -6,10 +6,22 @@ import ipywidgets as widgets
 import textwrap
 from IPython.display import clear_output
 
-# load Graph
+# loading Graph
 G = nx.read_graphml('../data/graph/civ.graphml')
 
+# =======================
+# graph drawing functions
 def colornode(by):
+    '''Returns color function to color nodes based on plotly colormaps.
+    
+    Parameters
+    ----------
+    by: Era | Type
+    
+    Returns
+    -------
+    py Function
+    '''
     if by == 'Era':
         ERAS = ['Ancient Era','Classical Era', 'Medieval Era', 'Renaissance Era', 'Industrial Era', 'Modern Era', 'Atomic Era', 'Information Era', 'None']
         index = dict(zip(ERAS, plotly.colors.qualitative.G10))
@@ -20,11 +32,31 @@ def colornode(by):
     return color_func
 
 def coloredge():
-    TYPES = ['Unlocks', 'Boosts', 'Replaces', 'Obsoletes', 'Reveals', 'Harvests', 'Upgrades', 'Builds'] 
+    '''Returns color dictionary to color edges based on plotly D3 colormap.
+    
+    Returns
+    -------
+    py Dictionary
+    '''
+    TYPES = ['Unlocks', 'Boosts', 'Replaces', 'Obsoletes', 'Reveals', 'Harvests', 'Upgrades', 'Builds']
     index = dict(zip(TYPES, ['#808080'] + plotly.colors.qualitative.D3))
     return index
 
 def build_plotly(G, coords, colornodeby):
+    '''Builds plotly Figure for graph G and given coordinates. Edges are drawn as annotations arrows of plotly Layout object.
+    
+    Parameters
+    ----------
+    G: nx.Graph or equivalents
+    coords: dictionary
+        Coords for nodes in graph G
+    colornodeby: Era | Type
+        Key to get color function from `colornode` function
+    
+    Returns
+    -------
+    plotly.Figure
+    '''
     # nodes, edges
     nX, nY = zip(*[n[1] for n in sorted(coords.items(), key=lambda n: n[0])])
     eX, eY = [[(coords[u][i], coords[v][i]) for u, v in G.edges()] for i in range(2)]
@@ -46,19 +78,45 @@ def build_plotly(G, coords, colornodeby):
     })
     layout = dict(annotations=annotations, **axes, showlegend=True, margin=dict(t=30, l=10, b=10, r=10), plot_bgcolor='white', height=800, legend_title_text='<b>Edge Types</b>')
     
+    # node trace
     nodes = go.Scatter(x=nX, y=nY, mode='markers+text', hoverinfo='text', marker=marker, textposition='top center', textfont_size=14, showlegend=False)
     nodes.hovertext = tips
     nodes.text = sorted(G.nodes)
     nodes.marker.color = colornode(by=colornodeby)(G)
     
+    # legend
     traces = [go.Scatter(name=edge, marker_color=color, x=[0], y=[0], marker_size=1, hoverinfo='skip') for edge, color in coloredge().items()]
 
+    # all together
     fig = go.Figure(data=nodes, layout=go.Layout(layout))
     fig.add_traces(traces) # add edge legend
     
     fig.show()
     
 def draw_network(G, node, direction, radius, nodetypes, edgetypes, colornodeby, enablespec):
+    '''Draw ego network within graph G with filters. Tech stack: networkx for backend, igraph for layout, plotly for visualization. Visualization limit to 150 (default) nodes. Handles and return errors as str with suggestions for users.
+    
+    Parameters
+    ----------
+    G: nx.Graph or equivalents
+    node: str
+        Ego to build network
+    direction: Backward (default) | Forward | Both
+        Direction of edges in network to include
+    radius: int
+        Radius of network
+    nodetypes: default 'All' or None. Options: see NODETYPES in `widgets` section
+        Node types to include
+    edgetypes: default to 'All' or None. Options: see EDGETYPES in `widgets` section
+        Edge types to include
+    colornodeby: Era | Type
+    enablespec: bool
+        Enable display of entities unique to specific Civilizations
+    
+    Returns
+    -------
+    plotly.Figure
+    '''
     if not node:
         message = 'Please select an Entity.'
         print(message)
@@ -110,7 +168,9 @@ def draw_network(G, node, direction, radius, nodetypes, edgetypes, colornodeby, 
     coords = dict(zip(ego_ig.vs['name'], ego_ig.layout('kk').coords))
     
     build_plotly(ego, coords, colornodeby)
-    
+
+# ==================
+# widgets
 ENTITIES = sorted(['{} - {}'.format(n, v) for n, v in nx.get_node_attributes(G, 'Type').items()])
 wg_node = widgets.Combobox(options=ENTITIES,
                            description='Entity',
