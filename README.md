@@ -4,7 +4,7 @@
 
 ## New: 3D Network
 
-You can now interact with [the graph **in 3D**](https://lkchemposer.github.io/civ6-graph/index.html), made possible thanks to [3d-force-graph](https://github.com/vasturiano/3d-force-graph). In the graph, click on the node to focus, and click on the arrow head to fly to the source node (i.e., beginning of the arrow).
+You can now interact with [the graph **in 3D**](https://lkchemposer.github.io/civ6-graph/), made possible thanks to [3d-force-graph](https://github.com/vasturiano/3d-force-graph). In the graph, click on the node to focus, and click on the arrow head to fly to the source node (i.e., beginning of the arrow).
 
 ## Motivation
 
