@@ -22,7 +22,7 @@
             .linkOpacity(0.3)
             .linkDirectionalArrowLength(5)
             .linkDirectionalArrowRelPos(1)
-            .onNodeClick(node => {
+            .onNodeClick(node => { // click to focus on the node
                 const distance = 40;
                 const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
 
@@ -30,8 +30,8 @@
                     { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
                     node, 3000
                 )
-            }) // click to focus on the node
-            .onLinkClick(link => {
+            })
+            .onLinkClick(link => { // click to fly to the source node
                 const distance = 40;
                 const distRatio = 1 + distance / Math.hypot(link.source.x, link.source.y, link.source.z);
 
@@ -39,7 +39,15 @@
                     { x: link.source.x * distRatio, y: link.source.y * distRatio, z: link.source.z * distRatio },
                     link.source, 3000
                 );
-            }); // click to focus on the source of the link
+            });
+        
+        // add effect
+        import { UnrealBloomPass } from '//cdn.skypack.dev/three/examples/jsm/postprocessing/UnrealBloomPass.js';
+        const bloomPass = new UnrealBloomPass();
+        bloomPass.strength = 1;
+        bloomPass.radius = 0.5;
+        bloomPass.threshold = 0.1;
+        Graph.postProcessingComposer().addPass(bloomPass);
     </script>
 </body>
 
