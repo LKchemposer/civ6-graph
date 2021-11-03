@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <script src="//unpkg.com/3d-force-graph"></script>
+</head>
+
+<body>
+    <div id='graph'></div>
+    <script type='module'>
+        const Graph = ForceGraph3D()
+            (document.getElementById('graph'))
+            .jsonUrl('./data/graph/civ.json')
+            .nodeLabel('id')
+            .nodeAutoColorBy('Type')
+            .linkAutoColorBy('Type')
+            .linkLabel('Type')
+            .linkCurvature(0.25)
+            .linkOpacity(0.3)
+            .linkDirectionalArrowLength(5)
+            .linkDirectionalArrowRelPos(1)
+            .onNodeClick(node => {
+                const distance = 40;
+                const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+
+                Graph.cameraPosition(
+                    { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+                    node, 3000
+                )
+            }) // click to focus on the node
+            .onLinkClick(link => {
+                const distance = 40;
+                const distRatio = 1 + distance / Math.hypot(link.source.x, link.source.y, link.source.z);
+
+                Graph.cameraPosition(
+                    { x: link.source.x * distRatio, y: link.source.y * distRatio, z: link.source.z * distRatio },
+                    link.source, 3000
+                );
+            }); // click to focus on the source of the link
+    </script>
+</body>
+
+</html>

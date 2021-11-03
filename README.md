@@ -2,9 +2,15 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LKchemposer/civ6-graph/HEAD)
 
+## New: 3D Network
+
+You can now interact with the graph **in 3D**, made possible thanks to [3d-force-graph](https://github.com/vasturiano/3d-force-graph). In the graph, click on the node to focus, and click on the arrow head to go to the source node (i.e., beginning of the arrow).
+
+## Motivation
+
 The [Civilization VI](https://civilization.com/) game is an awesome but complicated game. As a beginner of the Civ series, I approached learning the game in a slightly different way: by mapping out the entirety (or most of) the static dependencies of entities in the game. The resulting graph has 627 nodes (entities) and 1125 edges (connections). Node types include technologies, civics, building, resources, units, improvements, etc., and edge types include unlocks, boosts (for technologies and civics), upgrades (for units), replaces (for unique units or infrastructure of a specific civilization), etc.
 
-You can also interact with portion of the graph via either the [Dash app](http://lkchemposer.pythonanywhere.com/) or the [demo notebook](https://mybinder.org/v2/gh/LKchemposer/civ6-graph/32fdcd2c5a0be17af49faa3d83c971d6472f257e?filepath=src%2Fdemo.ipynb) in this repo. If you're interested in the data itself, check out the [csv files](./data/csv/). I also added a [graphml file](./data/graph/) for any interested graph peeps.
+You can also interact with portion of the graph via either the [Dash app](http://lkchemposer.pythonanywhere.com/) or the [demo notebook](https://mybinder.org/v2/gh/LKchemposer/civ6-graph/32fdcd2c5a0be17af49faa3d83c971d6472f257e?filepath=src%2Fdemo.ipynb) in this repo. If you're interested in the data itself, check out the [csv files](./data/csv/). I also added a [graphml file and json file](./data/graph) for any graph peeps.
 
 ![Gephi graph](./civ.png)
 
@@ -25,6 +31,3 @@ I used [networkx](https://networkx.org/) as the graph backend, [igraph](https://
 
 * The [Civilization VI wiki page](https://civilization.fandom.com/wiki/Civilization_Games_Wiki), and the folks who contribute there.
 * [pythonanywhere](https://www.pythonanywhere.com/) for hosting my Dash web app for free and for having neat documentation. Check out their services.
-
-
-
